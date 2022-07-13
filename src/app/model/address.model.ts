@@ -6,7 +6,7 @@ export interface Address {
 }
 
 export class Address implements Address {
-    constructor(street, suite, city, zipcode) {
+    constructor(street: string, suite: string, city: string, zipcode: string) {
         this.street = street;
         this.suite = suite;
         this.city = city;
